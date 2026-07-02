@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aya Portfolio</title>
+  <link rel="stylesheet" href="cv.css"/>
+  <script defer src="cv.js"></script>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="top-section">
+    <header>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg navbar fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><span>Aya</span>Portfolio<span>.</span></a>
+
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto" onclick="toggleMenu()">
+              <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+              <li class="nav-item"><a class="nav-link" href="#language">Language</a></li>
+              <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <h1>Hi, I'm <span>Aya Mahmoud</span></h1>
+        <h3>Front-End Developer | UI/UX Designer</h3>
+        <p>I create modern and responsive websites with a focus on clean design and user-friendly experiences using
+          HTML, CSS, and JavaScript.</p>
+
+        <div class="buttons">
+          <button>Download CV</button>
+          <button class="outline" onclick="showMessage()"><a class="nav-link" href="#contact">Contact Me</a></button>
+        </div>
+      </div>
+
+      <div class="hero-img">
+        <div class="circle"></div>
+        <img src="images/WhatsApp Image 2026-07-02 at 1.49.59 AM.jpeg" alt="profile">
+      </div>
+    </section>
+  </div>
+
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container text-center">
+      <h2>About Me</h2>
+      <em>
+        <ul>
+          <li>My Name is Aya, I Live in Gaza.</li>
+          <li>I graduated from Gaza Training College (GTC) with a degree in Communication Engineering.</li>
+          <li>I trained at Paltel Company.</li>
+          <li>After that, I decided to continue my educational journey at Al-Aqsa University.</li>
+          <li>I am currently studying Information Technology (IT). I am passionate about technology, programming, and
+            learning new skills.</li>
+          <li>I am a Front-End Developer student at Al-Aqsa University.</li>
+          <li>I trained at TechnoTech Company where I learned HTML, CSS, JavaScript and Bootstrap.</li>
+        </ul>
+      </em>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section bg-light">
+    <div class="container text-center">
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Bootstrap</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- LANGUAGE -->
+  <section id="language" class="section">
+    <div class="container text-center">
+      <h2>Language</h2>
+      <div class="language">
+        <span>Arabic</span>
+        <span>English</span>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section bg-light">
+    <div class="container text-center">
+      <h2>Projects</h2>
+
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <div class="card p-3">
+            <h5>Portfolio Website</h5>
+            <p>Personal responsive portfolio project.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card p-3">
+            <h5>E-Commerce UI Design</h5>
+            <p>A user interface design for an online store created using Figma.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container text-center">
+      <h2>Contact</h2>
+      <section class="contact-bar">
+
+        <div class="contact-item">
+          <div class="icon">✉</div>
+
+          <div>
+            <h3>Email</h3>
+            <p>ayaaboouda@gmail.com</p>
+          </div>
+        </div>
+
+
+        <div class="contact-item">
+          <div class="icon">📞</div>
+
+          <div>
+            <h3>Phone</h3>
+            <p>+970 59 708 6440</p>
+          </div>
+        </div>
+
+
+        <div class="contact-item">
+          <div class="icon">📍</div>
+
+          <div>
+            <h3>Location</h3>
+            <p>Palestine-Gaza</p>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-about">
+        <h3>Aya Portfolio</h3>
+        <p>Frontend Developer | UI/UX Designer</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-social">
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">Instagram</a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Aya Portfolio | All Rights Reserved</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
